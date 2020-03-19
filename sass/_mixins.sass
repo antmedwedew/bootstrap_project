@@ -1,0 +1,38 @@
+@mixin btn 
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+    border: none
+    background-image: linear-gradient(to top, $main_color 0%, #4ce2ff 100%)
+    border-radius: 5px
+    
+@mixin label
+    width: 112px
+    height: 24px
+    background-color: #000000
+    color: #ffffff
+    font-family: 'Roboto Thin'
+    font-size: 11px
+    text-transform: uppercase
+    margin: 0 auto
+    padding: 5px 12px
+    display: flex
+    justify-content: center
+    align-items: center
+@mixin title
+    color: $grey-light
+    font-size: 38px
+    font-weight: 700
+    text-align: center
+    text-transform: uppercase
+    margin-top: 38px
+    
+@mixin subtitle
+    color: $grey-light
+    font-size: 17px
+    font-weight: 400
+    text-align: center
+    margin-top: 19px
+
+@mixin btn-hover
+    &:hover
+        background-image: linear-gradient(to top, $main_color 100%, #4ce2ff 0%)
+        outline: none
