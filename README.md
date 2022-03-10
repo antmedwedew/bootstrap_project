@@ -1,4 +1,4 @@
-# bootstrap_project
-  layout of the landing page
-# link link to view 
+# Верстка лендинга при помощи bootstrap 4
+
+# Ссылка 
   https://antmedwedew.github.io/bootstrap_project/index.html
